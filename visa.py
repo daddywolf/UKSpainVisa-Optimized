@@ -100,8 +100,8 @@ class Visa(Basic):
                     result_dates[found_date.strftime("%d/%m/%Y")] = []
 
                 logger.info(f"User {email} found date {result_dates}")
-                pyttsx3.speak("day available")
                 self.click_el(normal_dates_xpath)  # 自动点击
+                pyttsx3.speak("day available")
                 self.wait_for_loading()
 
                 # 选择时间，最晚的那个

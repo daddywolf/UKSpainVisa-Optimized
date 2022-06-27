@@ -1,5 +1,5 @@
 # =============== GENERAL SETTINGS ===============
-TIMEOUT = 60  # 无日期后刷新间隔
+TIMEOUT = 90  # 无日期后刷新间隔
 
 # =============== VISA CENTER SELECTION ===============
 CENTER_MAN = ('England', 'Manchester', 'Normal', 'Tourism')

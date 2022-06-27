@@ -20,7 +20,7 @@ def init_driver():
     chrome_options.add_argument("--incognito")
 
     driver = undetected_chromedriver.Chrome(options=chrome_options)
-    driver.implicitly_wait(1)
+    driver.implicitly_wait(0)
     driver.delete_all_cookies()
     return driver
 
